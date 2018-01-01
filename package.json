@@ -1,6 +1,17 @@
 {
-  "name": "microbe-config",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "microbe-config",
+    "version": "1.0.0",
+    "description": "Microbe Config",
+    "repository": "cbdowell/microbe-config",
+    "bugs": "https://github.com/cbdowell/microbe-config/issues",
+    "homepage": "https://github.com/cbdowell/microbe-config",
+    "license": "MIT",
+    "scripts": {
+      "push-changes": "node ./scripts/push-changes.js"
+    },
+    "devDependencies": {
+      "dotenv": "^4.0.0",
+      "shelljs": "^0.7.8",
+      "husky": "^0.14.3"
+    }
 }
